@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="KB9EVO235" xmlns:wsdlns="KB9EVO235" name="WSgetUnidadNegocio" targetNamespace="KB9EVO235" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" elementFormDefault="qualified" targetNamespace="KB9EVO235">
+      <xsd:element name="WSgetUnidadNegocio.Execute">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="Mb_epr_cod" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="Comid" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="WSgetUnidadNegocio.ExecuteResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="Companiasjson" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="Error" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </types>
+  <message name="WSgetUnidadNegocio.ExecuteSoapIn">
+    <part name="parameters" element="wsdlns:WSgetUnidadNegocio.Execute" />
+  </message>
+  <message name="WSgetUnidadNegocio.ExecuteSoapOut">
+    <part name="parameters" element="wsdlns:WSgetUnidadNegocio.ExecuteResponse" />
+  </message>
+  <portType name="WSgetUnidadNegocioSoapPort">
+    <operation name="Execute">
+      <input message="wsdlns:WSgetUnidadNegocio.ExecuteSoapIn" />
+      <output message="wsdlns:WSgetUnidadNegocio.ExecuteSoapOut" />
+    </operation>
+  </portType>
+  <binding name="WSgetUnidadNegocioSoapBinding" type="wsdlns:WSgetUnidadNegocioSoapPort">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="Execute">
+      <soap:operation soapAction="KB9EVO235action/AWSGETUNIDADNEGOCIO.Execute" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="WSgetUnidadNegocio">
+    <port name="WSgetUnidadNegocioSoapPort" binding="wsdlns:WSgetUnidadNegocioSoapBinding">
+      <soap:address location="https://desamrc.humansite.com.mx/awsgetunidadnegocio.aspx" />
+    </port>
+  </service>
+</definitions>

@@ -1,0 +1,5 @@
+c:\users\programador2\documents\visual studio 2013\Projects\MRCTools\MRCTools\bin\Debug\MRCTools.dll
+c:\users\programador2\documents\visual studio 2013\Projects\MRCTools\MRCTools\bin\Debug\MRCTools.pdb
+c:\users\programador2\documents\visual studio 2013\Projects\MRCTools\MRCTools\obj\Debug\MRCTools.csprojResolveAssemblyReference.cache
+c:\users\programador2\documents\visual studio 2013\Projects\MRCTools\MRCTools\obj\Debug\MRCTools.dll
+c:\users\programador2\documents\visual studio 2013\Projects\MRCTools\MRCTools\obj\Debug\MRCTools.pdb

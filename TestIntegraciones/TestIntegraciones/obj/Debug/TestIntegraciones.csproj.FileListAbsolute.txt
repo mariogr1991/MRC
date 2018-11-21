@@ -1,0 +1,8 @@
+c:\users\programador2\documents\visual studio 2013\Projects\TestIntegraciones\TestIntegraciones\bin\Debug\TestIntegraciones.exe.config
+C:\Users\Programador2\Documents\Visual Studio 2013\Projects\TestIntegraciones\TestIntegraciones\obj\Debug\TestIntegraciones.csprojResolveAssemblyReference.cache
+C:\Users\Programador2\Documents\Visual Studio 2013\Projects\TestIntegraciones\TestIntegraciones\bin\Debug\TestIntegraciones.exe
+C:\Users\Programador2\Documents\Visual Studio 2013\Projects\TestIntegraciones\TestIntegraciones\bin\Debug\TestIntegraciones.pdb
+C:\Users\Programador2\Documents\Visual Studio 2013\Projects\TestIntegraciones\TestIntegraciones\obj\Debug\TestIntegraciones.exe
+C:\Users\Programador2\Documents\Visual Studio 2013\Projects\TestIntegraciones\TestIntegraciones\obj\Debug\TestIntegraciones.pdb
+C:\Users\Programador2\Documents\Visual Studio 2013\Projects\TestIntegraciones\TestIntegraciones\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Programador2\Documents\Visual Studio 2013\Projects\TestIntegraciones\TestIntegraciones\bin\Debug\Newtonsoft.Json.xml
